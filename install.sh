@@ -34,7 +34,7 @@ IMPORT_USERS_SCRIPT_FILE="/opt/import_users.sh"
 MAIN_CONFIG_FILE="/etc/aws-ec2-ssh.conf"
 
 IAM_GROUPS=""
-SUDO_GROUPS=""
+SUDO_GROUPS="admin,tools"
 LOCAL_GROUPS=""
 ASSUME_ROLE=""
 USERADD_PROGRAM=""
